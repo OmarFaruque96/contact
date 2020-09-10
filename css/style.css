@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(45deg,#27dbe9,#e3e67d);
+}
+a{
+	text-decoration: none;
+}
+.menubar{
+	text-align: center;
+}
+.menubar ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+.menubar ul li a{
+	color: #000;
+}
+.menubar ul li a:hover{
+	color: red;
+}
+.social-icon{
+	text-align: center;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px 10px;
+}
+.social-icon ul li a i{
+	height: 60px;
+	width: 60px;
+	background-color: red;
+	color: white;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 22px;
+	transition: 0.5s;
+	z-index: 9999;
+}
+
+
+.social-icon ul li a i:hover{
+	transform: scale(0.6);
+	transition: 0.5s;
+}
+.subscribe{
+	width: 400px;
+	margin: 40px auto;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.6);
+	text-align: center;
+	padding: 32px 15px;
+}
+.subscribe h3{
+	margin: 0;
+	margin-bottom: 16px;
+}
+input{
+	    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    border: 1px solid black;
+}
+input:focus{
+	outline: none;
+}
+.submit-btn{
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+.submit-btn:hover{
+	background-color: black;
+	border: 1px solid black;
+	transition: 0.5s;
+}
+.post{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.title{
+	position: absolute;
+    top: 32px;
+    left: 33px;
+    color: white;
+}
+
+.outer-box{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	margin: auto;
+	border-radius: 10px;
+	position: relative;
+}
+.circle{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 40px;
+	left: 140px;
+}
+.box-icon{
+	height: 30px;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    bottom: -15px;
+    left: 185px;
+    transform: rotate(45deg);
+}
+
+.form-box{
+	width: 600px;
+	margin: auto;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 10px;
+	padding: 55px 60px;
+	text-align: center;
+}
+.form-box h2{
+	text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.form-box form{
+	text-align: center;
+}
+.form-box form input{
+	width: 300px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.btn{
+	background: linear-gradient(45deg,#27dbe9,#e3e67d);
+	color: white; 
+	width: 340px !important;
+}
